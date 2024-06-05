@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Protocol Database Form </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='https://b0mh0lt.github.io/freeCodeCamp/_assets/css/material-components700.min.css'>
+  <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body>
+
+<main>
+    <div class="ribbon"></div>
+    <div class="card-container">
+        <div class="mdc-card">
+            <form id="participant-form">
+                <div class="mdc-layout-grid">
+                    <div class="mdc-layout-grid__inner">
+                        <div class="mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-12-desktop">
+                
+                                <h1 id="title">Participant sign-up form</h1>
+                               
+                                    <div class="sing-up-text-content">
+                                        <p id="description">The process of transforming undifferentiated human induced pluripotent stem (iPS) cells and embryonic stem (ES) cells into medically useful specialized cell types is called differentiation, and each cell type requires a dedicated "protocol". Thousands of scientists work worldwide and publish differentiation protocols in numerous formatting styles. The absence of a harmonized database is a major bottleneck for regenerative medicine because it makes protocol development and replication very difficult.</p>
+                                        <p>In the fields below, please fill in your information. You will be assigned a participant ID which should be used in all communications regarding the project, and a list of publications to read and extract the protocols from. This information will be sent to you by e-mail.</p>
+                                    </div>
+                                    
+                                
+                        <div class="mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-12-desktop">
+                            <h2>Participant details</h2>
+                        </div>
+                        <div class="mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-12-desktop">
+                            <label id="first-name-label" class="mdc-text-field mdc-text-field--filled w-100">
+                                <span class="mdc-text-field__ripple"></span>
+                                <input id="first-name" class="mdc-text-field__input" type="text" placeholder="Fill in your first name" aria-labelledby="name-floating-label" required>
+                                <span class="mdc-floating-label" id="name-floating-label">First name</span>
+                                <span class="mdc-line-ripple"></span>
+                            </label>
+                        </div>
+                        &nbsp;
+                        <div class="mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-12-desktop">
+                            <label id="middle-name-label" class="mdc-text-field mdc-text-field--filled w-100">
+                                <span class="mdc-text-field__ripple"></span>
+                                <input id="middle-name" class="mdc-text-field__input" type="text" placeholder="Fill in your middle name" aria-labelledby="name-floating-label">
+                                <span class="mdc-floating-label" id="name-floating-label">Middle name</span>
+                                <span class="mdc-line-ripple"></span>
+                            </label>
+                        </div>
+                        &nbsp;
+
+                        <div class="mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-12-desktop">
+                            <label id="last-name-label" class="mdc-text-field mdc-text-field--filled w-100">
+                                <span class="mdc-text-field__ripple"></span>
+                                <input id="last-name" class="mdc-text-field__input" type="text" placeholder="Fill in your last name" aria-labelledby="name-floating-label" required>
+                                <span class="mdc-floating-label" id="name-floating-label">Last name</span>
+                                <span class="mdc-line-ripple"></span>
+                            </label>
+                        </div>        
+
+                        <div class="mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-12-desktop">
+                            <h2>Contact details</h2>
+                        </div>
+                        <div class="mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-12-desktop">
+                            <label id="univ-label" class="mdc-text-field mdc-text-field--filled w-100">
+                                <span class="mdc-text-field__ripple"></span>
+                                <input id="univ" class="mdc-text-field__input" type="text" placeholder="Fill in the name of your university" aria-labelledby="name-floating-label">
+                                <span class="mdc-floating-label" id="name-floating-label">Affiliation</span>
+                                <span class="mdc-line-ripple"></span>
+                            </label>
+                        </div>
+                        &nbsp;
+                        <div class="mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-12-desktop">
+                            <label id="name-label" class="mdc-text-field mdc-text-field--filled w-100">
+                                <span class="mdc-text-field__ripple"></span>
+                                <input id="e-mail" class="mdc-text-field__input" type="text" placeholder="Fill in your e-mail address" aria-labelledby="name-floating-label" required>
+                                <span class="mdc-floating-label" id="name-floating-label">E-mail address</span>
+                                <span class="mdc-line-ripple"></span>
+                            </label>
+                        </div>
+
+
+                        <button type="submit" id="submitBtn" class="mdc-button mdc-button--raised">Submit</button>
+
+                        <div class="svg-container-custom-bottom">
+                            <div class="svg-container-bottom">
+                                <img src="../static/images/leidenlogo.svg" alt="Leiden University Logo" height="100">
+                            </div>
+                            <div class="svg-container-bottom">
+                                <img src="../static/images/kventuresLogo.png" alt="kventuresLogo Logo" height="70">
+                            </div>
+                        </div>
+                        </div>
+
+                        
+                        
+
+                    </div>
+            </form>
+
+        </div>
+    </div>
+                
+                
+</main>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<!-- Load MDC library -->
+<script src='https://b0mh0lt.github.io/freeCodeCamp/_assets/js/jquery351.min.js'></script>
+<script src='https://b0mh0lt.github.io/freeCodeCamp/_assets/js/material-components700.min.js'></script>
+<script src='https://b0mh0lt.github.io/freeCodeCamp/_assets/js/solid.min.js'></script>
+<script src='https://b0mh0lt.github.io/freeCodeCamp/_assets/js/fontawesome.min.js'></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+<script src="{{ url_for('static', filename='extractParticipantform.js') }}"></script>
+</body>
+</html>
+
+

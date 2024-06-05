@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Protocol Database Form </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='https://b0mh0lt.github.io/freeCodeCamp/_assets/css/material-components700.min.css'>
+  <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body>
+
+<main>
+    <div class="ribbon"></div>
+    <div class="card-container">
+        <div class="mdc-card">
+                <div class="mdc-layout-grid">
+                    <div class="mdc-layout-grid__inner">
+                        <div class="mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-8-tablet mdc-layout-grid__cell--span-12-desktop">
+                
+                                <h1 id="title" style="text-align: center">Harmonized database of stem cell differentiation protocols</h1>
+                                
+
+                                
+
+                                <p> Human pluripotent stem cells have the potential to revolutionize medicine by replacing tissues damaged by disease or injury. The most important task scientists face is to coax undifferentiated human induced pluripotent stem (iPS) cells and embryonic stem (ES) cells into medically useful cells, such as islet cells for Type 1 diabetes, hematopoietic stem cells for blood cancers, dopaminergic neurons for Parkinson's disease, motor neurons for spinal cord injury and ALS, and many many more. This process is called differentiation, and each cell type requires a dedicated "protocol". Thousands of scientists work worldwide and publish differentiation protocols in numerous formatting styles. The absence of a harmonized database is a major bottleneck for regenerative medicine because it makes protocol development and replication very difficult. </p>
+                                <p> Here, we invite you to participate in a pioneering effort to harmonize all stem cell differentiation knowledge humanity has created! We have created an online form where you will be asked to manually input specific information from papers assigned to you, describing differentiation protocols for specific cell types. We are working intensely on building a database based on your contributions and are using artificial intelligence to expand it. For those highly committed to the project, we will provide updates on our progress and will involve you further diving into this sophisticated pioneering project. We strive to identify ideal protocols for hundreds of cell types in the human body for thousands of medical applications. </p>
+
+                                <hr style = "height: 1px; background-color:grey">
+                                &nbsp;
+                                <p> Due to the design of the project, we ask each participant to submit the protocols of 10 papers to the database within a maximum of 6 weeks. We estimate that an enthusiastic student will spend approximately 5-8 hours per paper. Of course, you are more than welcome to contribute more! And for those champions who become expert scientific writers in the project, we plan special rewards in terms of publication credit, recommendation letters, involvement in the analysis of the results, and more. </p>
+
+                                <p> Please maintain confidentiality about this project, unless you are requested by team leaders to invite additional young scientists to join the project. You will be acknowledged as a co-author on articles to which you contributed, which will serve as valuable assets to your academic CV and career in science! </p>
+                                <p> Your participation is essential for such a groundbreaking scientific project, and we thank you for taking the effort to contribute to a historical advancement of humanity towards dramatically improving medicine for generations.
+                                    Thank you for your amazing contribution!</p>
+                        
+                        <hr>
+                        <div class="index-container">
+                            <div class="index-section">
+                                <p>Fill in the sign-up form if you wish to participate in the project:</p>
+                                <a href="{{ url_for('signup') }}" class="button-style">Sign up Form</a>
+                            </div>
+                            <div class="index-section">
+                                <p>Once you receive your instructions, use the following form to fill in the protocol details:</p>
+                                <a href="{{ url_for('protocol') }}" class="button-style">Protocol Form</a>
+                            </div>
+                        </div>
+                        
+
+                        <div class="svg-container-custom">
+                            <div class="svg-container-bottom">
+                                <img src="../static/images/leidenlogo.svg" alt="Leiden University Logo" height="100">
+                            </div>
+                            <div class="svg-container-bottom">
+                                <img src="../static/images/kventuresLogo.png" alt="kventuresLogo Logo" height="70">
+                            </div>
+                            <div class="svg-container-bottom">
+                                <h3> Contact information </h3>
+                            </div>
+                        </div>
+
+
+                        </div>
+                        </div>
+                        </div>
+ 
+        </div>
+    </div>
+</main>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<!-- Load MDC library -->
+<script src='https://b0mh0lt.github.io/freeCodeCamp/_assets/js/jquery351.min.js'></script>
+<script src='https://b0mh0lt.github.io/freeCodeCamp/_assets/js/material-components700.min.js'></script>
+<script src='https://b0mh0lt.github.io/freeCodeCamp/_assets/js/solid.min.js'></script>
+<script src='https://b0mh0lt.github.io/freeCodeCamp/_assets/js/fontawesome.min.js'></script>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+
+
+</body>
+</html>
+                            
+                            
